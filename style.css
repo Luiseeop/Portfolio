@@ -21,6 +21,10 @@
     align-items: center;
     padding: 0 200px 0 200px;
     border-bottom: solid 1px rgb(255, 255, 255);
+    position: fixed;   /* rend le header fixe */
+    top: 0;            /* le colle en haut */
+    width: 100%;       /* pour qu’il prenne toute la largeur */
+    z-index: 1000;     /* priorité d’affichage (au-dessus du reste) */
 }
 
 nav{
@@ -144,4 +148,9 @@ h1{
 footer{
     text-align: center;
     padding-bottom: 0px;
+}
+
+
+.white:hover{
+    text-decoration: underline;
 }
