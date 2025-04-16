@@ -106,10 +106,7 @@ ul.navheader {
     transition: 0.5s ease-in-out;
 }
 
-.imghero:hover{
-    width: 330px;
-    cursor:pointer;
-}
+
 h1 {
     font-size: 100px;
 }
